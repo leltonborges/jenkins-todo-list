@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: leltondev/django_todolist_image_build
+          images: leltondev/django_todolist_image_build:$(date +%s)
           tags: |
             type=ref,event=branch
             type=ref,event=pr
