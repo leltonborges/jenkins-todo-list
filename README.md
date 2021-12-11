@@ -1,4 +1,5 @@
 # django-todolist
+[![Publish Docker image](https://github.com/leltonborges/jenkins-todo-list/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/leltonborges/jenkins-todo-list/actions/workflows/main.yml)
 
 Simple todolist write in django for general use and pipeline automation..
 
